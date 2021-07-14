@@ -174,6 +174,36 @@ display: inline-block;
 }
 /* highlight end  */
 
+.stats-section{
+
+    width: auto;
+    height: auto;
+    margin-left: 6%;
+    margin-right: 7%;
+    margin-bottom: 6%;
+    
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px  grey;
+}
+.stats-txt{
+    display: flex;
+    padding-left: 20%;
+    
+     
+  }
+  .trophy{
+      width: 33.33%;
+      
+      
+  }
+  .match{
+      width:33.33%;
+      
+  }
+  .team{
+      width: 33.33%;
+  }
+
 /* Footer section */
 footer{
     margin-top: 158px;
@@ -245,29 +275,5 @@ footer{
     }
     
 }
-/* table devices */
 
-@media only screen and (min-width: 689px) and (max-width: 992px){
-    .header-banner{
-        width: 100%;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .heading{
-        margin-left: 70px;
-        margin-right: 60px;
-    }
-    .heading-title{
-        font-size: 36px;
-    }
-    .header-image img{
-        width: 300px;
-        height: 230px;
-    }
-    .players{
-        margin: 47px 15px;
-        grid-template-columns: repeat(2,1fr);
-    }
-        
-   
 
-}
